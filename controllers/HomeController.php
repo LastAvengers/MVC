@@ -10,7 +10,9 @@ class HomeController {
   }
 
   public function index() {
-    $this->template->display('index.html.php');
+    $this->template->display('index2.html.php');
   }
-
+  public function signup() {
+    $this->template->display('signup.html.php');
+  }
 }

@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
-  RewriteBase    /~e46762/wda/mvc
+  RewriteBase    /~s3167356/Ass2/mvc/
   RewriteRule    ^$   webroot/   [L]
   RewriteRule    (.*) webroot/$1 [L]
 </IfModule>
